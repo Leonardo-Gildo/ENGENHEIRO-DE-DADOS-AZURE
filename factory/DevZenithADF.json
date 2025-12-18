@@ -1,0 +1,9 @@
+{
+	"name": "DevZenithADF",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d293459e-ba2e-462e-a006-0fff1ee20c4b",
+		"tenantId": "abb085c8-919b-4e0e-8189-d56d31fe0647"
+	}
+}
