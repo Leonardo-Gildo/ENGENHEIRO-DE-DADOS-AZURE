@@ -1,0 +1,32 @@
+{
+	"name": "DS_TBMovies",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerMovies",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "DevZenithCD"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Movies",
+				"type": "varchar"
+			},
+			{
+				"name": "Title",
+				"type": "varchar"
+			},
+			{
+				"name": "genres",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "BDMovies"
+		}
+	}
+}
